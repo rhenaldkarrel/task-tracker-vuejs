@@ -4,7 +4,7 @@ const props = defineProps({
 	color: String,
 });
 
-const emits = defineEmits(['toggle-add-task']);
+const emits = defineEmits(['btn-click']);
 
 const onClick = () => {
   emits('btn-click')
